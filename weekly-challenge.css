@@ -1,0 +1,27 @@
+h1 {
+    font-family: 'Fira Sans';
+    color: rgb(17, 123, 79);
+}
+
+p {
+    font-family: Georgia;
+    color: rgb(23, 167, 34);
+}
+
+a {
+    color: salmon;
+    font-family: 'Oswald';
+    text-decoration: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+}
+
+body {
+    text-align: center;
+}
