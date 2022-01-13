@@ -20,6 +20,10 @@ li {
     border:3px solid rgb(23, 167, 34)
 }
 
+#description {
+    margin: 0;
+}
+
 a {
     padding: 12px 48px;
     background-color: rgb(178, 1, 79) ;
@@ -27,6 +31,8 @@ a {
     text-decoration: unset;
     border-radius: 4px;
     font-size: 24px;
+    display: inline-block;
+    margin: 12px 0;
 }
 
 a:hover {
@@ -34,9 +40,13 @@ a:hover {
     text-decoration: none;
 }
 
-main p {
+/* main p {
     margin: 12px;
     color: white;
+} */
+
+.highlightGoal{
+    background-color: rgb(131, 131, 95);
 }
 
 body {
